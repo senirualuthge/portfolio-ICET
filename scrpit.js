@@ -1,10 +1,7 @@
-"use strict";
-
-/* Add or remove repository names here to choose which projects appear */
 const githubUsername = "senirualuthge";
 const featuredRepos = [
   "FiFA-Score-Widget"
-  // "another-repo-name",
+  
 ];
 
 const status = document.querySelector(".github-status");

@@ -41,7 +41,7 @@ a:hover {
   outline-offset: 3px;
 }
 
-/* Header */
+
 header {
   position: sticky;
   top: 0;
@@ -83,7 +83,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* Sections, each with its own background colour */
 .section {
   padding: 70px 0;
 }
@@ -99,26 +98,26 @@ nav a:hover {
 
 .hero {
   padding: 100px 0;
-  background: #d3f0e1; /* mint green */
+  background: #d3f0e1; 
 }
 
 .about {
-  background: #dbeafe; /* light blue */
+  background: #dbeafe; 
 }
 
 .skills-section {
-  background: #fef3c7; /* light yellow */
+  background: #fef3c7; 
 }
 
 .github-section {
-  background: #ccfbf1; /* light teal */
+  background: #ccfbf1; 
 }
 
 .contact-section {
-  background: #ffe4d6; /* light peach */
+  background: #ffe4d6; 
 }
 
-/* Hero */
+
 .intro {
   color: var(--accent-dark);
   font-weight: bold;
@@ -150,7 +149,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* Skills */
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -164,7 +163,6 @@ nav a:hover {
   background: #ffffff;
 }
 
-/* Cards (projects and GitHub) */
 .cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -204,13 +202,12 @@ nav a:hover {
   display: none;
 }
 
-/* Contact */
 .contact-section p {
   margin-bottom: 12px;
   overflow-wrap: anywhere;
 }
 
-/* Footer */
+
 footer {
   padding: 25px 0;
   background: #1f2a24;
